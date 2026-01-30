@@ -1,3 +1,5 @@
+# watch this on https://www.youtube.com/watch?v=Ks1BMLOUijU
+
 # Create a new folder named "Year"
 
 New-Item Year -ItemType Directory

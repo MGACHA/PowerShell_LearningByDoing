@@ -28,6 +28,8 @@ The script uses Get-Culture to read the short month names for your current Windo
 
 **3. Get-ChildItem**
 
+Watch this on YT https://www.youtube.com/watch?v=GQlU3MC9dVw
+
 The script searches a source folder for files like 2024_Sep.csv using Get-ChildItem, filtering for filenames that contain an underscore ("*_*").
 
 It then reads the year from each filename (using the BaseName, without the file extension), creates the required year folders (for example, 2024) with New-Item, and copies each file into the correct organised subfolder using Copy-Item.
@@ -37,18 +39,29 @@ When the script finishes, it displays a message with Write-Host showing which fi
 
 **4. Power Shell in VSCode**
 
+Watch this on YT https://www.youtube.com/watch?v=qnjkVDlfuvM
+
 No repository, recording only about PowerShell extension in Visual Studio Code
 
 
 **5. LastWriteTime**
 
+Watch this on YT https://www.youtube.com/watch?v=X6QG26NXuWU
+
 The script reads the "Date Modified" (LastWriteTime) from each file (not folders) and automatically MOVES (Move-Item) them into newly created folders like 2024 > 2024_09.
 
 This is a perfect solution for organising reports, photos, documents, or downloads based on when they were last changed.
 
+To create an environment for testing, I used the script Get_Random.ps1 that created random files.
+
+In addition, script Name_LastWriteTime.ps1 shows in the terminal Name and Date Modified.
 
 **6. Rename_byDate_Taken**
+
+Watch this on YT https://www.youtube.com/watch?v=Rwl1cXkKKx0
 
 The PowerShell script uses the actual "Date Taken", not file system dates.
 
 A simple but practical example of using metadata correctly and writing safer automation scripts.
+
+In addition, the script Show_DateTaken.ps1 shows in the terminal list of the jpg files and the "Date Taken"

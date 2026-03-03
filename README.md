@@ -65,3 +65,34 @@ The PowerShell script uses the actual "Date Taken", not file system dates.
 A simple but practical example of using metadata correctly and writing safer automation scripts.
 
 In addition, the script Show_DateTaken.ps1 shows in the terminal list of the jpg files and the "Date Taken"
+
+**7. ImportExcel_HTML**
+
+ImportExcel: Pull Website Data into Excel with PowerShell
+
+I'm using Import-Html to pull Demographics of the United Kingdom data from Wikipedia.
+
+I installed the ImportExcel module in PowerShell - no admin rights required. Then I load the module into the current session.
+
+After that, I use the URL to import the data. The number 9 tells PowerShell which table to extract. Tables are counted from zero, so 9 means the 10th table on the page.
+
+This PowerShell module enables reading and writing Excel files without Microsoft Excel installed on the system.
+
+A simple way to turn web data into structured data in seconds.
+
+**8. GetDefaultFolder**
+
+Automating Outlook attachment downloads with PowerShell (Last 7 Days Filter)
+
+In this short video, I'm using Outlook's ComObject Outlook.Application (MAPI) to:
+
+- Connect to Outlook desktop app
+- Search the Inbox and all subfolders (GetDefaultFolder)*
+- Filter emails from the last e.g. 7 days
+- Find attachments containing specific text in the filename e.g. “jpg”
+- Automatically save them to a chosen folder
+- Safely handle duplicate filenames
+- Generate a summary at the end
+
+This kind of automation is perfect for collecting reports, saving image attachments, and processing regular email data - without manually downloading files.
+

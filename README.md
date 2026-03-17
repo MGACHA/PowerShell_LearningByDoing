@@ -68,6 +68,8 @@ In addition, the script Show_DateTaken.ps1 shows in the terminal list of the jpg
 
 **7. ImportExcel_HTML**
 
+Watch this on YT https://www.youtube.com/watch?v=Nu_Dbqeowdw
+
 ImportExcel: Pull Website Data into Excel with PowerShell
 
 I'm using Import-Html to pull Demographics of the United Kingdom data from Wikipedia.
@@ -82,9 +84,11 @@ A simple way to turn web data into structured data in seconds.
 
 **8. GetDefaultFolder**
 
+Watch this on https://www.youtube.com/watch?v=rWbRKujZUKs
+
 Automating Outlook attachment downloads with PowerShell (Last 7 Days Filter)
 
-In this short video, I'm using Outlook's ComObject Outlook.Application (MAPI) to:
+I'm using Outlook's ComObject Outlook.Application (MAPI) to:
 
 - Connect to Outlook desktop app
 - Search the Inbox and all subfolders (GetDefaultFolder)*
@@ -95,4 +99,36 @@ In this short video, I'm using Outlook's ComObject Outlook.Application (MAPI) to
 - Generate a summary at the end
 
 This kind of automation is perfect for collecting reports, saving image attachments, and processing regular email data - without manually downloading files.
+
+**9.ConvertToXLSX**
+
+Watch this on https://www.youtube.com/watch?v=mu5Ax5s-894
+
+From CSV files to Excel reports with PowerShell
+
+I'm using PowerShell with the ImportExcel module to automatically convert multiple CSV files into formatted Excel workbooks.
+The script loops through a folder, processes each CSV, and creates a clean .xlsx version - saving time and keeping consistency across reports.
+A quick example of how automation can make everyday data tasks faster and more reliable!
+
+To start, install the ImportExcel module in PowerShell - no admin rights required. Then load the module into the current session.
+
+**10.ConvertToCSV**
+
+Watch this on https://youtu.be/pwujh_EAqmA
+
+Excel to CSV Automation with PowerShell
+
+I'm using PowerShell with the ImportExcel module to automatically convert multiple CSV files into formatted Excel workbooks.
+The script loops through a folder, processes each CSV, and creates a clean .xlsx version — saving time and ensuring consistency across reports.
+A quick example of how automation can make everyday data tasks faster and more reliable!
+
+To start, install the ImportExcel module in PowerShell - no admin rights required. Then load the module into the current session.
+
+**11.OutlookToCSV**
+
+Watch this on https://www.youtube.com/watch?v=3kxgKGxrNO0
+
+I'm using PowerShell with Outlook COM objects to export emails from the last 30 days across Inbox + all subfolders into a timestamped CSV file.
+The recursive script captures sender, date, subject, and folder location (message - body - can be added too) - perfect for audits, reporting, or data analysis without manual copying.
+Saves hours compared to drag-and-drop or Excel exports!
 
